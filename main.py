@@ -33,7 +33,7 @@ def get_speech_from_text(text, language="pl-pl", audio_codec='MP3'):
         }
         req = requests.get(API_BASE_URL, params=params, stream=True)
         with open("new_mp3.mp3", 'ab') as file:
-            for chunk in req.iter_content(chunk_size=128):
+            for chunk in req.iter_content(chuk_size=128):
                 file.write(chunk)
 
 
