@@ -7,7 +7,9 @@ API_BASE_URL = "http://api.voicerss.org/"
 API_KEY = os.getenv("API_KEY")
 MAX_CHARACTERS = 1000
 
-reader = PdfReader("Ticket-Warsaw-Katowice-3014854762.pdf")
+pdf_file_path = "placeholder string"
+
+reader = PdfReader(pdf_file_path)
 text = ""
 
 for page in reader.pages:
