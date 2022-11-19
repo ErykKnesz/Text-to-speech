@@ -6,7 +6,7 @@ The maximum amount of characters workable is about (arbitrarily) 1000 characters
 
 The dependencies are to be found in the `requirements.txt` file.
 
-## How tu run
+## How to run
 
 Run the script giving the arguments in this order: path to pdf file and language of the file as follows:
 `python main.py path_to_file file_language`
